@@ -1,0 +1,76 @@
+.containerMain{
+    margin: 25px auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.logos{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 3em;
+}
+
+.logoHTML {
+    background-image: url('../../../components/assets/html-5\ \(1\).png');
+}
+
+.logoCSS {   
+    background-image: url('../../../components/assets/css\ \(1\).png'); 
+}
+
+.logoJS {   
+    background-image: url('../../../components/assets/javascript.png');
+}
+
+.logoNODE {    
+    background-image: url('../../../components/assets/nodejs.png');
+}
+
+.logoGITHUB { 
+    background-image: url('../../../components/assets/github.png');
+}
+
+.logoREACT { 
+    background-image: url('../../../components/assets/reaccionar.png');   
+}
+
+.logoExpress{   
+    background-image: url('../../../components/assets/express.png');
+}
+
+.logoMongoDB{   
+    background-image: url('../../../components/assets/mongodb.png');
+}
+
+.logoSql{
+    background-image: url('../../../components/assets/sql.png');
+}
+
+@media screen and (max-width:600px) {
+    .logos{
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 3em;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .logos{
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 2em;
+    }
+}
+

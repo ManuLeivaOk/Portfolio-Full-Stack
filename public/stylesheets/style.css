@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nunito:wght@300;400;700&display=swap');
+
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #02A8A8;
+  padding: 2px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #EFEFEF;
+  font-size: 2em;
+  margin: 5px 0;
+}
+
+ul li a:hover{
+  background-color: #F5DEA3;
+  border-radius: 25px;
+  color: black;
+  
+}
+
+footer {
+  padding: 10px;
+  background-color: #02A8A8;
+  color: #EFEFEF;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hero{
+  height: 10vh;
+  background-color: #02A8A8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.textologin{
+  color: #EFEFEF;
+}
+

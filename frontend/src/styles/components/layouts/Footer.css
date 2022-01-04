@@ -1,0 +1,59 @@
+footer{
+    background: var(--color-primary);
+    border-top: 2px solid var(--color-terceary);
+}
+
+.redesFooter{
+    height: 150px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linkedin{
+    background-image: url('/src/components/assets/redesFooter/logo-linkedin.svg');
+}
+
+.facebook{
+    background-image: url('/src/components/assets/redesFooter/logo-facebook.svg');
+}
+
+.instagram{
+    background-image: url('/src/components/assets/redesFooter/logo-instagram.svg');
+}
+
+.whatsapp{
+    background-image: url('/src/components/assets/redesFooter/logo-whatsapp.svg');
+}
+
+
+.iconosFooter {
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 3em;
+    filter: invert(99%) sepia(4%) saturate(259%) hue-rotate(293deg) brightness(112%) contrast(87%);
+}
+
+.iconosFooter:hover{
+    padding: 4px;
+    cursor: pointer;
+    filter: invert(82%) sepia(92%) saturate(2011%) hue-rotate(308deg) brightness(101%) contrast(101%);
+}
+
+.noDerechos {
+    padding-bottom: 5px;
+}
+
+div h4 {
+    text-align: center;
+    color: var(--color-cuarter);
+    margin: 0 0 20px 0;
+}
+
+@media screen and (max-width:850px) {
+    .redesFooter{
+        width: 65%;
+    }
+}

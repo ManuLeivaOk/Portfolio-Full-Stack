@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --color-primary: #2E4C6D;  
+    --color-secundary: #396EB0;
+    --color-terceary: #F4E185;
+    --color-cuarter: #DADDFC;
+    --boton-padding: 20px 40px;
+}
+
+/* azul/celeste/gris/rosado
+FC997C
+396EB0
+DADDFC
+FC997C */
